@@ -1,7 +1,13 @@
 # wa-splitbot
 
-A personal WhatsApp group expense splitter (Splitwise-style), built on
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
+A WhatsApp group expense splitter (Splitwise-style), built on
 [Baileys](https://github.com/WhiskeySockets/Baileys).
+
+Contributions are welcome — see [CONTRIBUTING.md](CONTRIBUTING.md) for the
+workflow and pull request rules.
 
 ## Run locally
 
@@ -121,3 +127,14 @@ Notes:
 - **Ephemeral hosting:** if you deploy somewhere without persistent disk
   (Railway, most serverless platforms), always set `AUTH_DIR`/`DATA_DIR`
   to a mounted persistent volume — see the Railway section above.
+
+## Contributing
+
+Bug fixes, new commands, and docs improvements are welcome. See
+[CONTRIBUTING.md](CONTRIBUTING.md) for the branch/PR workflow and rules.
+`main` is protected — changes land via pull request with at least one
+review approval.
+
+## License
+
+[MIT](LICENSE)
